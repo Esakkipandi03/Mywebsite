@@ -53,7 +53,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 70px 10% 0;
-  overflow-x: scroll;
   margin-top: 50px;
 }
 .home-content {
@@ -278,6 +277,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   .home-content {
     width: 100%;
@@ -500,6 +501,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
+    margin-bottom: 20px;
   }
   .about-content {
     width: 100%;
@@ -677,6 +679,7 @@ body {
     text-align: center;
     padding: 80px 20px;
     margin-top: 25px;
+    margin-bottom: 20px;
   }
   .skill-content {
     display: flex;
@@ -820,7 +823,7 @@ body {
     width: 100%;
     height: 190vh;
     padding: 80px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .services-content {
     display: grid;
@@ -1045,6 +1048,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
+    margin-bottom: 20px;
   }
   .contact-content {
     width: 100%;
@@ -1188,7 +1192,6 @@ body {
 footer {
   background-color: black;
   padding: 10px 0;
-  margin-top: 20px;
   width: 100%;
   text-align: center;
 }
