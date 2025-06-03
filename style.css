@@ -268,11 +268,12 @@ body {
     color: #0ef;
   }
   .home {
-     position: relative;
+    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
   }
@@ -281,7 +282,7 @@ body {
     margin: 20px 10px;
   }
   .home-content h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -296,7 +297,7 @@ body {
     color: #0ef;
   }
   .home-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin: -1px 0;
     opacity: 0;
@@ -304,16 +305,16 @@ body {
     animation-delay: 1s;
   }
   .home-content p {
-    font-size: 11px;
+    font-size: 18px;
     text-align: justify;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
   }
   .home-img img {
-     border-radius: 20px;
-    width: 380px;
-    height: 380px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
     box-shadow: 0 0 20px #0ef;
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
@@ -324,12 +325,12 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: transparent;
     border: 2px solid #0ef;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 18px;
     color: #0ef;
     text-decoration: none;
     margin: 10px 5px 10px 0;
@@ -345,11 +346,11 @@ body {
   }
   .button {
     display: inline-block;
-    padding: 5px 18px;
+    padding: 15px 28px;
     background-color: #0ef;
     border-radius: 40px;
     box-shadow: 0 0 10px #0ef;
-    font-size: 10px;
+    font-size: 16px;
     color: #1f242d;
     letter-spacing: 0.5px;
     text-decoration: none;
@@ -493,6 +494,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
   }
@@ -501,7 +503,7 @@ body {
     margin: 20px 10px;
   }
   .about-content h3 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -511,7 +513,7 @@ body {
     color: #0ef;
   }
   .about-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin: -1px 0;
     opacity: 0;
@@ -519,16 +521,15 @@ body {
     animation-delay: 1s;
   }
   .about-content p {
-    font-size: 11px;
+    font-size: 18px;
     text-align: justify;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
   }
   .about-data img {
-    margin-right: -20px;
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 370px;
     border-radius: 50%;
     box-shadow: 0 0 30px #0ef;
     opacity: 0;
@@ -537,7 +538,7 @@ body {
   }
   .about-button {
     display: inline-block;
-    padding: 5px 18px;
+    padding: 15px 28px;
     margin-top: 10px;
     background-color: #0ef;
     border-radius: 40px;
@@ -546,7 +547,7 @@ body {
     transition: 0.3s ease all;
     z-index: 1;
     box-shadow: 0 0 10px #0ef;
-    font-size: 10px;
+    font-size: 16px;
     color: #1f242d;
     letter-spacing: 1px;
     text-decoration: none;
@@ -687,7 +688,7 @@ body {
     background-color: #1f242d;
     border-radius: 20px;
     box-shadow: 0 0 20px #0ef;
-    margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 62px 62px 62px 62px;
     grid-template-rows: 62.5px 62.5px;
@@ -703,7 +704,7 @@ body {
     color: #0ef;
   }
   .skill h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin: -1px 0;
     opacity: 0;
@@ -728,7 +729,7 @@ body {
     animation-delay: calc(0.2s * var(--i));
   }
   .skill h3 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     opacity: 0;
     margin-top: 50px;
@@ -816,6 +817,7 @@ body {
     width: 100%;
     height: 100vh;
     padding: 80px 20px;
+    margin-bottom: 30px;
   }
   .services-content {
     display: grid;
@@ -838,7 +840,7 @@ body {
     color: #0ef;
   }
   .services-title h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
@@ -860,7 +862,7 @@ body {
     font-size: 20px;
   }
   .service p {
-    font-size: 11px;
+    font-size: 16px;
     text-align: justify;
     margin: 5px 0;
   }
@@ -1037,6 +1039,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
   }
@@ -1045,7 +1048,7 @@ body {
     margin: 20px 10px;
   }
   .contact-content h3 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -1055,7 +1058,7 @@ body {
     color: #0ef;
   }
   .contact-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin: -1px 0;
     opacity: 0;
@@ -1093,8 +1096,8 @@ body {
   }
   .contact-form input {
     width: 100%;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 10px;
     border-radius: 10px;
     background-color: #464647a8;
     border: 2px solid #0ef;
@@ -1111,14 +1114,15 @@ body {
   }
   .contact-form input::placeholder,
   .contact-form textarea::placeholder {
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 700;
   }
   .contact-form textarea {
     width: 100%;
-    height: 70px;
+    height: 100px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 10px;
     background-color: #464647a8;
     border: 2px solid #0ef;
     opacity: 0;
@@ -1128,7 +1132,7 @@ body {
   }
   .contact-button {
     display: inline-block;
-    padding: 6px 14px;
+    padding: 12px 28px;
     margin-top: 10px;
     width: 100%;
     background-color: #0ef;
@@ -1137,7 +1141,7 @@ body {
     position: relative;
     transition: 0.3s ease all;
     box-shadow: 0 0 10px #0ef;
-    font-size: 15px;
+    font-size: 18px;
     color: #1f242d;
     letter-spacing: 1px;
     text-decoration: none;
@@ -1174,4 +1178,20 @@ body {
   .contact-button:active {
     transform: scale(0.9);
   }
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  padding: 10px 0;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+}
+footer p i {
+  color: #fff;
 }
