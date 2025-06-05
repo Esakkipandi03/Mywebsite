@@ -315,13 +315,13 @@ body {
   }
   .home-img img {
     border-radius: 20px;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     box-shadow: 0 0 20px #0ef;
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
-    margin: 10px 0;
+    margin: 20px;
   }
   .social-media a {
     display: inline-flex;
@@ -532,11 +532,12 @@ body {
     animation-delay: 1s;
   }
   .about-data img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 0 0 30px #0ef;
     opacity: 0;
+    margin: 20px;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
   }
