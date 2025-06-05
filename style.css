@@ -277,7 +277,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px 0;
+    margin: 30px 0;
   }
   .home-content {
     width: 100%;
