@@ -13,13 +13,13 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+   z-index: 100;
   width: 100%;
   padding: 20px 10%;
   background: #1f242d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 .logo {
   font-size: 25px;
@@ -1193,6 +1193,10 @@ footer {
   padding: 10px 0;
   width: 100%;
   text-align: center;
+   position: fixed;
+  top: 0;
+  left: 0;
+   z-index: 100;
 }
 footer p {
   color: #fff;
