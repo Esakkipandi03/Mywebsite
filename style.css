@@ -53,7 +53,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 70px 10% 0;
-  margin-top: 50px 0;
+  margin-top: 30px 0;
 }
 .home-content {
   max-width: 600px;
@@ -384,6 +384,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px 5% 0;
+  margin: 30px 0;
 }
 .about-content {
   max-width: 600px;
@@ -609,6 +610,7 @@ body {
   height: 100vh;
   text-align: center;
   padding: 150px 200px;
+  margin: 30px 0;
 }
 .skill-content {
   display: flex;
@@ -749,6 +751,7 @@ body {
   width: 100%;
   height: 100vh;
   padding: 80px 50px 0 50px;
+  margin: 30px 0;
 }
 .services-content {
   display: grid;
@@ -902,6 +905,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 70px 10% 0;
+  margin: 30px 0;
 }
 .contact-content {
   max-width: 600px;
