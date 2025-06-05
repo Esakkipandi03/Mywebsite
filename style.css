@@ -1098,6 +1098,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 20px;
+    margin-bottom: 30px;
   }
   .contact-form form {
     display: flex;
