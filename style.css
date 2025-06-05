@@ -48,12 +48,12 @@ body {
 .home {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 70px 10% 0;
-  margin-top: 50px;
+  margin-top: 50px 0;
 }
 .home-content {
   max-width: 600px;
@@ -238,14 +238,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 20px 10px 10px;
+    padding: 20px;
     background: #1f242d;
     display: flex;
+    flex-direction: column;
     align-items: center;
     z-index: 100;
   }
   .logo {
-    font-size: 20px;
+    font-size: 28px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -259,7 +260,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 5px;
+    margin-left: 10px;
     transition: 0.3s;
     animation: slideTop 0.5s ease forwards;
     animation-delay: calc(0.2s * var(--i));
@@ -271,14 +272,12 @@ body {
   .home {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 80px 20px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 50px 0;
   }
   .home-content {
     width: 100%;
@@ -308,7 +307,7 @@ body {
     animation-delay: 1s;
   }
   .home-content p {
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -316,8 +315,8 @@ body {
   }
   .home-img img {
     border-radius: 20px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     box-shadow: 0 0 20px #0ef;
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
@@ -495,13 +494,13 @@ body {
   .about {
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px 0;
   }
   .about-content {
     width: 100%;
@@ -533,8 +532,8 @@ body {
     animation-delay: 1s;
   }
   .about-data img {
-    width: 370px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     box-shadow: 0 0 30px #0ef;
     opacity: 0;
@@ -675,11 +674,10 @@ body {
   .skill {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     text-align: center;
     padding: 80px 20px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin: 30px 0;
   }
   .skill-content {
     display: flex;
@@ -821,9 +819,9 @@ body {
 @media (max-width: 500px) {
   .services {
     width: 100%;
-    height: 190vh;
+    height: auto;
     padding: 80px 20px;
-    margin-bottom: 20px;
+    margin: 30px 0;
   }
   .services-content {
     display: grid;
@@ -1042,13 +1040,13 @@ body {
   .contact {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 80px 20px;
-    margin-bottom: 20px;
+    margin: 30px 0;
   }
   .contact-content {
     width: 100%;
