@@ -1050,6 +1050,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 50px;
     margin: 50px 0;
   }
   .contact-content {
